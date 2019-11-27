@@ -28,6 +28,21 @@ _by Angel_
 ---
 ## Initial Setup
 
+##### Making your Github Account
+
+1. Go to Github, and make an account.
+   - Enter an username, enter your email, and set up an password. 
+   - Select the Free Plan. Complete your setup, and then verify your email.
+
+##### Setting up your IDE
+
+1. Go to ide.cs50.io
+   -Log in VIA your Github Account.
+2. In order to configure your account, enter this within the command line.
+  
+    `` git config --global user.email "you@example.com"``
+
+     - Note: You'll need to use your email, so don't copy completely.
 
 
 
