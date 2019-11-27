@@ -43,6 +43,7 @@ _by Angel_
     `` git config --global user.email "you@example.com"``
 
      - Note: You'll need to use your email, so don't copy completely.
+3. Then type : ``git config --global user.name "Your Name"`` into your command line
 
 
 
