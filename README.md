@@ -88,12 +88,13 @@ _by Angel_
      - Type yes, press ENTER, and you should see
 >Hi "username"! You've successfully authenticated, but GitHub does not provide shell access. 
 
-
-
-
+Why is the SSH Key Important? 
+The reason why the SSH Key is important because it allows the computer or other programs to identify you. It is used for managing networks, operating systems, and configurations. 
+It is also inside many file transfer tools and configuration management tools. It is important for us to use it because we need to transfer files etc from github to our CS50 IDE.
 
 ---
 ## Repository Setup
+1. 
 
 
 
