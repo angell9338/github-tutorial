@@ -94,7 +94,18 @@ It is also inside many file transfer tools and configuration management tools. I
 
 ---
 ## Repository Setup
-1. 
+``mkdir`` - Allows you to make a directory.
+
+``git init`` - Initializes git in your directory  (now called a repository) for version control - only do this once at the beginning  
+- Note: In order to unintialize git you'll need to use ``rm -rf.git``
+
+``git add "file name"`` - Once you've made changes to an file, you can use this command to add it. However it's only one single file.
+
+``git add --all`` - You'll be able to add all the files you've changed, unlike ``git add "file name"``
+
+After you've added your files, then you use ``git commit -m "any message you want"`` in order to commit any file.
+You'll be able to go back to those changes whenever you want.
+
 
 
 
