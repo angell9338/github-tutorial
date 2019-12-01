@@ -106,13 +106,36 @@ It is also inside many file transfer tools and configuration management tools. I
 After you've added your files, then you use ``git commit -m "any message you want"`` in order to commit any file.
 You'll be able to go back to those changes whenever you want.
 
+##### How to remote: 
+``git remote add origin URL``
 
+``remote``: a connection between our current repository and an external one (that lives on github)
 
+``add``: adds the remote repo (as opposed to editing or removing an existing one)
+
+``origin`` this is our “nickname” for the remote repo.  “origin” is standard.
+   - Note:In the future, you might need multiple remotes.
+   
+``URL``: the location of the remote repo.  Could be HTTPS or SSH
+
+After you've set up your git remote, you're able to push and pull code or files from Github and into your commandline.
+
+``git push -u origin master`` - 
+
+- "push" - sending our commits from our local repo to our remote repo (up to the cloud: Github)
+
+- "-u" - means “upstream.” This tells git to remember which remote repo & branch to push our changes to when we type git push in the future.
+
+- "origin" - this is which remote we are pushing to
+
+- "master" - the “main” branch of our project
 
 ---
 ## Workflow & Commands
 
+``git push`` - Send any changes from local repo “up” to the remote repo
 
+``git pull`` - Brings any changes from the remote repo “down” to the local repo
 
 ---
 ## Rolling Back Changes
