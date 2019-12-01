@@ -132,6 +132,18 @@ After you've set up your git remote, you're able to push and pull code or files 
 
 ---
 ## Workflow & Commands
+Throughout working on your project in your repository, it's best to have a habit of
+doing git status or git add etc during intervals so you won't lose anything. 
+
+``git add`` - adds the current/entire directory: all files that have changed
+
+
+``git status``
+
+- Optional command to see which files have been edited since the last commit (it will be red)
+
+- Optional (and recommended) command to see which files are staged for the commit( they will be green) (remember: press ↑ twice)
+
 
 ``git push`` - Send any changes from local repo “up” to the remote repo
 
@@ -139,3 +151,6 @@ After you've set up your git remote, you're able to push and pull code or files 
 
 ---
 ## Rolling Back Changes
+
+``git revert (a commit message)`` - revert back to the commit where you want
+
