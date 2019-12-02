@@ -153,10 +153,15 @@ doing git status or git add etc during intervals so you won't lose anything.
 ---
 ## Rolling Back Changes
 
+Occasionally when you're working on your project, you'll want to go back to some previous changes, but in order to do that you'll need to know some of these commands!
+
 ``git revert (a commit message)`` - revert back to the commit where you want
 
-``git reset --soft HEAD~1`` - undo commit
+``git reset --soft HEAD~1`` - will remove the last commit from the current branch, but the file changes will stay in your working tree
 
 ``git reset HEAD filename`` - undo any changes made before you added
 
-``git reset HEAD~1`` - reset both the commit and the add, basically going back to the edit.
+``git reset HEAD~1`` - will still keep the changes in your working tree but not on the index; so if you want to "redo" the commit, you will have to add the changes 
+
+``git reset --hard HEAD~1`` - will lose all uncommited changes in addition to the changes introduced in the last commit. 
+   - The changes won't stay in your working tree so doing a git status command will tell you that you don't have any changes in your repository. (Basically permanent)
