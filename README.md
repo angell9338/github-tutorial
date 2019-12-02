@@ -51,7 +51,7 @@ _by Angel_
      - ``ssh-keygen -t rsa -b 4096 -C "you@example.com"`` then slowly press ENTER repeatedly until you see something similiar to this:
 
 
-      -The key's randomart image is:
+      The key's randomart image is:
         +--[ RSA 4096]----+
         |       .o o..    |
         |       o +Eo     |
@@ -94,7 +94,8 @@ It is also inside many file transfer tools and configuration management tools. I
 
 ---
 ## Repository Setup
-``mkdir`` - Allows you to make a directory.
+`mkdir` - Allows you to make a directory.
+  - You can remove an directory by using ``rmdir`` or ``rm``, however note that ``rm`` doesn't remove as well as ``rmdir``.
 
 ``git init`` - Initializes git in your directory  (now called a repository) for version control - only do this once at the beginning  
 - Note: In order to unintialize git you'll need to use ``rm -rf.git``
@@ -154,3 +155,8 @@ doing git status or git add etc during intervals so you won't lose anything.
 
 ``git revert (a commit message)`` - revert back to the commit where you want
 
+``git reset --soft HEAD~1`` - undo commit
+
+``git reset HEAD filename`` - undo any changes made before you added
+
+``git reset HEAD~1`` - reset both the commit and the add, basically going back to the edit.
