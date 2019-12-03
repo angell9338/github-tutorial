@@ -147,6 +147,10 @@ doing git status or git add etc during intervals so you won't lose anything.
 
 ``git add`` - adds the current/entire directory: all files that have changed
 
+`` git commit -m ""`` - saves the current code into the IDE
+  - Note: If you miss an apostrophe, you'll need to exit the thing by doing ``control+c`` to exit.
+  - Remember to do this after you've added unless you plan to add more!
+
 
 ``git status``
 
