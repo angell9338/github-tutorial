@@ -119,6 +119,15 @@ You'll be able to go back to those changes whenever you want.
    
 ``URL``: the location of the remote repo.  Could be HTTPS or SSH
 
+##### Example of a remote:
+
+```
+git remote add origin git@github.com:your-user/random-repo-name.git
+git push -u origin master
+```
+- Note: Once you've entered this into your terminal, you can push the work you have in the terminal into your github repo.
+- By using the command ``git push``
+
 After you've set up your git remote, you're able to push and pull code or files from Github and into your commandline.
 
 ``git push -u origin master`` - 
