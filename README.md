@@ -51,7 +51,7 @@ _by Angel_
      - ``ssh-keygen -t rsa -b 4096 -C "you@example.com"`` then slowly press ENTER repeatedly until you see something similiar to this:
 
 
-      The key's randomart image is:
+  ```    The key's randomart image is:
         +--[ RSA 4096]----+
         |       .o o..    |
         |       o +Eo     |
@@ -63,7 +63,7 @@ _by Angel_
         |           . o   |
         |            o.   |
         +-----------------+
-
+```
 5. ``eval "$(ssh-agent -s)"`` starts the agent in the background
 
 6. ``ls -al ~/.ssh`` you should now see a file named id_rsa.pub
